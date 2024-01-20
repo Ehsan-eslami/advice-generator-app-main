@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <!----------------------------------------------------------------------------->
+    <div>
+      <!-- Hero <start> -->
+      <main>
+        <!-- Advice ID -->
+        <p class="title-p">
+          Advice
+          <span id="adviceId">
+            <!-- Advice ID goes here -->
+          </span>
+        </p>
+
+        <!-- Advice content <start> -->
+        <p id="adviceText" class="content-p">
+          <q
+            cite="https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921&ref_=ext_shr_lnk">
+          </q>
+        </p>
+        <!-- Advice content </end> -->
+
+        <!-- divider icon <start> -->
+        <div class="box-icon">
+          <img
+            class="divider"
+            src="./images/pattern-divider-desktop.svg"
+            alt="" />
+        </div>
+        <!--  divider icon</end> -->
+
+        <!--  dice button <start> -->
+        <div class="dice-img">
+          <img
+            id="adviceBtn"
+            onclick="getAdvice()"
+            src="./images/icon-dice.svg"
+            alt="" />
+        </div>
+        <!-- dice button </end> -->
+      </main>
+      <!-- Hero </end> -->
+    </div>
+
+    <!-- FrontEnd Mentor footer <start> -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Ehsan-eslami"
+          >Ehsan Eslami</a
+        >.
+      </div>
+    </footer>
+    <!-- FrontEnd Mentor footer </end> -->
+    <!----------------------------------------------------------------------------->
+
+    <!--  Scripts file link -->
+    <script src="./scripts.js"></script>
+  </body>
+</html>
